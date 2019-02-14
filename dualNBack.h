@@ -1,12 +1,12 @@
-// File Name: dualNBack.h
+// File Name: NBack.h
 // Written By: Christian Gruss
 // Date Written: 02/14/2019
 //
-// This file is the header file for the dual n back test.
-// This file contains the definitions required for the dual n back test.
+// This file is the header file for the n back test.
+// This file contains the definitions required for the n back test.
 
-#ifndef DUAL_N_BACK_H
-#define DUAL_N_BACK_H
+#ifndef N_BACK_H
+#define N_BACK_H
 
 #include // relevant header(s)
 
@@ -31,7 +31,7 @@ enum menu_choice_t
 	End_Application
 };
 
-class dualNBack
+class NBack
 {
 	public:
 		
